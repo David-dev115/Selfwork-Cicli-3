@@ -30,7 +30,7 @@ do{
     }
 
 
-}while ( scelta_x < 1 || scelta_x > 3)
+}while (scelta_x != 1 && scelta_x != 2 && scelta_x != 3 )
 
 
 
@@ -59,4 +59,4 @@ do{
 //         } else { console.log( `Selezione non valida`);
 //         }
 
-// }while (bevanda_scelta < 4 || bevanda_scelta> 6 ) 
+// }while (bevanda_scelta != 4 && bevanda_scelta != 5 && bevanda_scelta != 6 )
